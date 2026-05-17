@@ -1,26 +1,12 @@
-# ── Large binary embeddings & model weights (host on Kaggle instead) ─────────
-*.npy
-*.npz
-*.pkl
-*.keras
-*.bin
+# Hanya izinkan file-file berikut
+*
 
-# ── Pre-trained FastText (~6 GB) ─────────────────────────────────────────────
-Pre-trained FastText Model/
-
-# ── Personal notes / temp files ──────────────────────────────────────────────
-*.docx
-datafinal - Copy.csv
-patch_v8.py
-
-# ── Duplicate notebook ────────────────────────────────────────────────────────
-siamese_bilstm_direct copy.ipynb
-
-# ── Claude Code internal config ───────────────────────────────────────────────
-.claude/
-
-# ── Python / Jupyter cache ────────────────────────────────────────────────────
-__pycache__/
-*.pyc
-*.pyo
-.ipynb_checkpoints/
+!.gitignore
+!README.md
+!CLAUDE.md
+!preprocessing.ipynb
+!fasttext.ipynb
+!cross_prompt_injection.ipynb
+!balancing_data.ipynb
+!siamese_bilstm_direct.ipynb
+!siamese_bilstm_direct_no_cross.ipynb
