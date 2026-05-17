@@ -3,7 +3,6 @@
 
 !.gitignore
 !README.md
-!CLAUDE.md
 !preprocessing.ipynb
 !fasttext.ipynb
 !cross_prompt_injection.ipynb
