@@ -1,6 +1,6 @@
-# Automated Essay Scoring — Siamese BiLSTM + FastText
+# Automatic Short Answer Grading — Siamese BiLSTM + FastText
 
-Kode skripsi untuk sistem **Automated Essay Scoring (AES)** esai berbahasa Indonesia menggunakan model **Siamese BiLSTM** dengan embedding FastText 300 dimensi.
+Kode skripsi untuk sistem **Automatic Short Answer Grading (ASAG)** jawaban singkat berbahasa Indonesia menggunakan model **Siamese BiLSTM** dengan embedding FastText 300 dimensi.
 
 - **Dataset**: 1.229 jawaban siswa, 17 soal esai (IDPSJ), nilai 1–10
 - **Model**: Siamese BiLSTM dengan ordinal regression (9 sigmoid output)
