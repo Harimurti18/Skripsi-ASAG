@@ -1,0 +1,7 @@
+1 = Asli => Injection + Mixup
+2 = Aug Gen AI + Mixup
+3 = Asli => SMOTE
+4 = Asli
+5 = Aug Gen AI => SMOTE (Belum, tereplace)
+
+Lupa = Tidak tau

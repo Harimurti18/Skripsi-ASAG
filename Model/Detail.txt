@@ -1,0 +1,2 @@
+1: Model dengan parameter terbaik
+2: Model dengan parameter terbaik + Feature Engineering (Subtract()([cos_sim_ak_a, cos_sim_q_a]))

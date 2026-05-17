@@ -1,0 +1,6 @@
+1 = Asli
+2 = Augmentasi Gen AI
+3 = Asli => Injection + Mixup
+4 = Augmentasi Gen AI + Mixup
+5 = Asli => SMOTE
+6 = Augmentasi Gen AI + SMOTE

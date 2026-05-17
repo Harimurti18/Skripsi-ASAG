@@ -1,0 +1,178 @@
+<svg width="100%" viewBox="0 0 690 1100" role="img" xmlns="http://www.w3.org/2000/svg">
+<title>Blok diagram keseluruhan pipeline penelitian ASAG dari pengumpulan data hingga evaluasi</title>
+<desc>Diagram alur hitam putih yang menunjukkan seluruh tahapan penelitian dari pengumpulan data, pra-pemrosesan, vektorisasi, augmentasi, pembagian data, pelatihan model, hingga evaluasi.</desc>
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+<path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</marker>
+<mask id="imagine-text-gaps-xbpm0z" maskUnits="userSpaceOnUse">
+  <rect x="0" y="0" width="690" height="1100" fill="white"/>
+  <rect x="267.828125" y="41.333335876464844" width="143.9196014404297" height="21.33333396911621" fill="black" rx="2"/>
+  <rect x="248.41146850585938" y="60.333335876464844" width="182.58981323242188" height="19.33333396911621" fill="black" rx="2"/>
+  <rect x="258.0677185058594" y="127.33334350585938" width="163.92919921875" height="21.33333396911621" fill="black" rx="2"/>
+  <rect x="168.13021850585938" y="146.33334350585938" width="344.50506591796875" height="19.33333396911621" fill="black" rx="2"/>
+  <rect x="275.3645935058594" y="213.33334350585938" width="129.3352508544922" height="21.33333396911621" fill="black" rx="2"/>
+  <rect x="233.97396850585938" y="232.33334350585938" width="212.13314819335938" height="19.33333396911621" fill="black" rx="2"/>
+  <rect x="256.0364685058594" y="299.3333435058594" width="167.92709350585938" height="21.33333396911621" fill="black" rx="2"/>
+  <rect x="215.609375" y="318.3333435058594" width="249.33981323242188" height="19.33333396911621" fill="black" rx="2"/>
+  <rect x="149.671875" y="380.3333435058594" width="80.65625" height="19.33333396911621" fill="black" rx="2"/>
+  <rect x="150.625" y="396.3333435058594" width="79.0166015625" height="19.33333396911621" fill="black" rx="2"/>
+  <rect x="296.296875" y="380.3333435058594" width="88.37593841552734" height="19.33333396911621" fill="black" rx="2"/>
+  <rect x="295.390625" y="396.3333435058594" width="89.21875" height="19.33333396911621" fill="black" rx="2"/>
+  <rect x="468.2239685058594" y="380.3333435058594" width="44.1099853515625" height="19.33333396911621" fill="black" rx="2"/>
+  <rect x="445.15625" y="396.3333435058594" width="89.6875" height="19.33333396911621" fill="black" rx="2"/>
+  <rect x="249.3697967529297" y="477.3333435058594" width="181.2604217529297" height="21.33333396911621" fill="black" rx="2"/>
+  <rect x="246.765625" y="496.3333435058594" width="186.7705078125" height="19.33333396911621" fill="black" rx="2"/>
+  <rect x="209.421875" y="565.3333740234375" width="261.15625" height="21.33333396911621" fill="black" rx="2"/>
+  <rect x="134.1510467529297" y="600.3333740234375" width="71.85929489135742" height="19.33333396911621" fill="black" rx="2"/>
+  <rect x="295.625" y="600.3333740234375" width="88.917236328125" height="19.33333396911621" fill="black" rx="2"/>
+  <rect x="464.13543701171875" y="600.3333740234375" width="92.499267578125" height="19.33333396911621" fill="black" rx="2"/>
+  <!-- CORRECTED: single shared encoder text (was: separate BiLSTM + Shared boxes) -->
+  <rect x="236" y="666.3333740234375" width="208" height="19.33333396911621" fill="black" rx="2"/>
+  <rect x="232" y="682.3333740234375" width="216" height="19.33333396911621" fill="black" rx="2"/>
+  <!-- CORRECTED: feature text line 1 (wider, adds orisinalitas) -->
+  <rect x="76" y="738.3333740234375" width="528" height="19.33333396911621" fill="black" rx="2"/>
+  <rect x="256" y="754.3333740234375" width="168" height="19.33333396911621" fill="black" rx="2"/>
+  <rect x="268.66668701171875" y="804.3333740234375" width="142.6666717529297" height="19.33333396911621" fill="black" rx="2"/>
+  <rect x="197.4791717529297" y="820.3333740234375" width="285.1231384277344" height="19.33333396911621" fill="black" rx="2"/>
+  <rect x="252.078125" y="872.3333740234375" width="175.84375" height="19.33333396911621" fill="black" rx="2"/>
+  <rect x="578.8200073242188" y="872.3333740234375" width="105.27083587646484" height="19.33333396911621" fill="black" rx="2"/>
+  <rect x="251.515625" y="943.3333740234375" width="176.96875" height="21.33333396911621" fill="black" rx="2"/>
+  <rect x="281.3958435058594" y="962.3333740234375" width="118.3072509765625" height="19.33333396911621" fill="black" rx="2"/>
+  <rect x="123.51042175292969" y="47.333335876464844" width="53.46195602416992" height="19.33333396911621" fill="black" rx="2"/>
+  <rect x="142.1041717529297" y="133.33334350585938" width="34.39530563354492" height="19.33333396911621" fill="black" rx="2"/>
+  <rect x="129.1041717529297" y="219.33334350585938" width="47.39597702026367" height="19.33333396911621" fill="black" rx="2"/>
+  <rect x="49.79166793823242" y="305.3333435058594" width="76.20833587646484" height="19.33333396911621" fill="black" rx="2"/>
+  <rect x="134.92709350585938" y="483.3333435058594" width="41.279991149902344" height="19.33333396911621" fill="black" rx="2"/>
+  <rect x="22.322917938232422" y="707.3333740234375" width="43.677085876464844" height="19.33333396911621" fill="black" rx="2"/>
+  <rect x="140.33334350585938" y="949.3333740234375" width="35.66666793823242" height="19.33333396911621" fill="black" rx="2"/>
+</mask>
+</defs>
+
+<!-- 1. PENGUMPULAN DATA -->
+<rect x="190" y="30" width="300" height="54" rx="8" fill="var(--color-text-primary)" stroke="var(--color-text-primary)" stroke-width="1" style="fill:rgb(250, 249, 245);stroke:rgb(250, 249, 245);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;"/>
+<text x="340" y="52" text-anchor="middle" dominant-baseline="central" style="fill:rgb(250, 249, 245);stroke:none;font-size:14px;font-weight:500;text-anchor:middle;dominant-baseline:central;">1. Pengumpulan data</text>
+<text x="340" y="70" text-anchor="middle" dominant-baseline="central" style="fill:rgb(194, 192, 182);stroke:none;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:central;">17 prompt, 1.229 data, skala 1-10</text>
+
+<line x1="340" y1="84" x2="340" y2="114" stroke="var(--color-text-primary)" stroke-width="1" marker-end="url(#arrow)" style="stroke:rgb(250, 249, 245);stroke-width:1px;"/>
+
+<!-- 2. PRA-PEMROSESAN -->
+<rect x="190" y="116" width="300" height="54" rx="8" fill="none" stroke="var(--color-text-primary)" stroke-width="1.5" style="fill:none;stroke:rgb(250, 249, 245);stroke-width:1.5px;"/>
+<text x="340" y="138" text-anchor="middle" dominant-baseline="central" style="fill:rgb(250, 249, 245);stroke:none;font-size:14px;font-weight:500;text-anchor:middle;dominant-baseline:central;">2. Pra-pemrosesan teks</text>
+<text x="340" y="156" text-anchor="middle" dominant-baseline="central" style="fill:rgb(194, 192, 182);stroke:none;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:central;">Case folding → tokenisasi → normalisasi → hapus tanda baca</text>
+
+<line x1="340" y1="170" x2="340" y2="200" stroke="var(--color-text-primary)" stroke-width="1" marker-end="url(#arrow)" style="stroke:rgb(250, 249, 245);stroke-width:1px;"/>
+
+<!-- 3. VEKTORISASI -->
+<rect x="190" y="202" width="300" height="54" rx="8" fill="none" stroke="var(--color-text-primary)" stroke-width="1.5" style="fill:none;stroke:rgb(250, 249, 245);stroke-width:1.5px;"/>
+<text x="340" y="224" text-anchor="middle" dominant-baseline="central" style="fill:rgb(250, 249, 245);stroke:none;font-size:14px;font-weight:500;text-anchor:middle;dominant-baseline:central;">3. Vektorisasi teks</text>
+<text x="340" y="242" text-anchor="middle" dominant-baseline="central" style="fill:rgb(194, 192, 182);stroke:none;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:central;">FastText cc.id.300.bin, seq_len × 300</text>
+
+<line x1="340" y1="256" x2="340" y2="286" stroke="var(--color-text-primary)" stroke-width="1" marker-end="url(#arrow)" style="stroke:rgb(250, 249, 245);stroke-width:1px;"/>
+
+<!-- 4. AUGMENTASI -->
+<rect x="140" y="288" width="400" height="54" rx="8" fill="none" stroke="var(--color-text-primary)" stroke-width="1.5" style="fill:none;stroke:rgb(250, 249, 245);stroke-width:1.5px;"/>
+<text x="340" y="310" text-anchor="middle" dominant-baseline="central" style="fill:rgb(250, 249, 245);stroke:none;font-size:14px;font-weight:500;text-anchor:middle;dominant-baseline:central;">4. Augmentasi data latih</text>
+<text x="340" y="328" text-anchor="middle" dominant-baseline="central" style="fill:rgb(194, 192, 182);stroke:none;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:central;">Semi-manual (prompt 13-17) → CPI → Mixup</text>
+
+<!-- Augmentasi sub-boxes -->
+<line x1="240" y1="342" x2="200" y2="372" stroke="var(--color-text-primary)" stroke-width="1" marker-end="url(#arrow)" style="stroke:rgb(250, 249, 245);stroke-width:1px;"/>
+<line x1="340" y1="342" x2="340" y2="372" stroke="var(--color-text-primary)" stroke-width="1" marker-end="url(#arrow)" style="stroke:rgb(250, 249, 245);stroke-width:1px;"/>
+<line x1="440" y1="342" x2="480" y2="372" stroke="var(--color-text-primary)" stroke-width="1" marker-end="url(#arrow)" style="stroke:rgb(250, 249, 245);stroke-width:1px;"/>
+
+<rect x="110" y="374" width="160" height="40" rx="6" fill="none" stroke="var(--color-text-primary)" stroke-width="1" stroke-dasharray="4 3" style="fill:none;stroke:rgb(250, 249, 245);stroke-width:1px;stroke-dasharray:4px, 3px;"/>
+<text x="190" y="390" text-anchor="middle" dominant-baseline="central" style="fill:rgb(194, 192, 182);stroke:none;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:central;">Semi-manual</text>
+<text x="190" y="406" text-anchor="middle" dominant-baseline="central" style="fill:rgb(194, 192, 182);stroke:none;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:central;">prompt 13-17</text>
+
+<rect x="260" y="374" width="160" height="40" rx="6" fill="none" stroke="var(--color-text-primary)" stroke-width="1" stroke-dasharray="4 3" style="fill:none;stroke:rgb(250, 249, 245);stroke-width:1px;stroke-dasharray:4px, 3px;"/>
+<text x="340" y="390" text-anchor="middle" dominant-baseline="central" style="fill:rgb(194, 192, 182);stroke:none;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:central;">Cross-Prompt</text>
+<text x="340" y="406" text-anchor="middle" dominant-baseline="central" style="fill:rgb(194, 192, 182);stroke:none;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:central;">Injection (CPI)</text>
+
+<rect x="410" y="374" width="160" height="40" rx="6" fill="none" stroke="var(--color-text-primary)" stroke-width="1" stroke-dasharray="4 3" style="fill:none;stroke:rgb(250, 249, 245);stroke-width:1px;stroke-dasharray:4px, 3px;"/>
+<text x="490" y="390" text-anchor="middle" dominant-baseline="central" style="fill:rgb(194, 192, 182);stroke:none;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:central;">Mixup</text>
+<text x="490" y="406" text-anchor="middle" dominant-baseline="central" style="fill:rgb(194, 192, 182);stroke:none;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:central;">(ruang vektor)</text>
+
+<!-- Kumpul kembali -->
+<line x1="190" y1="414" x2="190" y2="444" stroke="var(--color-text-secondary)" stroke-width="0.5" mask="url(#imagine-text-gaps-xbpm0z)" style="stroke:rgb(194, 192, 182);stroke-width:0.5px;"/>
+<line x1="340" y1="414" x2="340" y2="444" stroke="var(--color-text-secondary)" stroke-width="0.5" mask="url(#imagine-text-gaps-xbpm0z)" style="stroke:rgb(194, 192, 182);stroke-width:0.5px;"/>
+<line x1="490" y1="414" x2="490" y2="444" stroke="var(--color-text-secondary)" stroke-width="0.5" mask="url(#imagine-text-gaps-xbpm0z)" style="stroke:rgb(194, 192, 182);stroke-width:0.5px;"/>
+<line x1="190" y1="444" x2="490" y2="444" stroke="var(--color-text-secondary)" stroke-width="0.5" style="stroke:rgb(194, 192, 182);stroke-width:0.5px;"/>
+<line x1="340" y1="444" x2="340" y2="464" stroke="var(--color-text-primary)" stroke-width="1" marker-end="url(#arrow)" style="stroke:rgb(250, 249, 245);stroke-width:1px;"/>
+
+<!-- 5. PEMBAGIAN DATA -->
+<rect x="190" y="466" width="300" height="54" rx="8" fill="none" stroke="var(--color-text-primary)" stroke-width="1.5" style="fill:none;stroke:rgb(250, 249, 245);stroke-width:1.5px;"/>
+<text x="340" y="488" text-anchor="middle" dominant-baseline="central" style="fill:rgb(250, 249, 245);stroke:none;font-size:14px;font-weight:500;text-anchor:middle;dominant-baseline:central;">5. Pembagian data (LOPO)</text>
+<text x="340" y="506" text-anchor="middle" dominant-baseline="central" style="fill:rgb(194, 192, 182);stroke:none;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:central;">17 fold: 15 train | 1 validasi | 1 test</text>
+
+<line x1="340" y1="520" x2="340" y2="550" stroke="var(--color-text-primary)" stroke-width="1" marker-end="url(#arrow)" style="stroke:rgb(250, 249, 245);stroke-width:1px;"/>
+
+<!-- 6. MODEL (kotak besar) -->
+<rect x="80" y="552" width="520" height="330" rx="10" fill="none" stroke="var(--color-text-primary)" stroke-width="1.5" stroke-dasharray="6 3" style="fill:none;stroke:rgb(250, 249, 245);stroke-width:1.5px;stroke-dasharray:6px, 3px;"/>
+<text x="340" y="576" text-anchor="middle" dominant-baseline="central" style="fill:rgb(250, 249, 245);stroke:none;font-size:14px;font-weight:500;text-anchor:middle;dominant-baseline:central;">6. Siamese BiLSTM + Attention Pooling</text>
+
+<!-- 3 inputs -->
+<rect x="100" y="592" width="140" height="36" rx="6" fill="none" stroke="var(--color-text-primary)" stroke-width="1" style="fill:none;stroke:rgb(250, 249, 245);stroke-width:1px;"/>
+<text x="170" y="610" text-anchor="middle" dominant-baseline="central" style="fill:rgb(194, 192, 182);stroke:none;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:central;">Pertanyaan</text>
+
+<rect x="270" y="592" width="140" height="36" rx="6" fill="none" stroke="var(--color-text-primary)" stroke-width="1" style="fill:none;stroke:rgb(250, 249, 245);stroke-width:1px;"/>
+<text x="340" y="610" text-anchor="middle" dominant-baseline="central" style="fill:rgb(194, 192, 182);stroke:none;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:central;">Kunci jawaban</text>
+
+<rect x="440" y="592" width="140" height="36" rx="6" fill="none" stroke="var(--color-text-primary)" stroke-width="1" style="fill:none;stroke:rgb(250, 249, 245);stroke-width:1px;"/>
+<text x="510" y="610" text-anchor="middle" dominant-baseline="central" style="fill:rgb(194, 192, 182);stroke:none;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:central;">Jawaban siswa</text>
+
+<!-- Panah ke encoder -->
+<line x1="170" y1="628" x2="170" y2="658" stroke="var(--color-text-primary)" stroke-width="1" marker-end="url(#arrow)" style="stroke:rgb(250, 249, 245);stroke-width:1px;"/>
+<line x1="340" y1="628" x2="340" y2="658" stroke="var(--color-text-primary)" stroke-width="1" marker-end="url(#arrow)" style="stroke:rgb(250, 249, 245);stroke-width:1px;"/>
+<line x1="510" y1="628" x2="510" y2="658" stroke="var(--color-text-primary)" stroke-width="1" marker-end="url(#arrow)" style="stroke:rgb(250, 249, 245);stroke-width:1px;"/>
+
+<!-- CORRECTED: 1 shared encoder untuk ketiga input (sebelumnya 2 box terpisah) -->
+<rect x="100" y="660" width="480" height="40" rx="6" fill="var(--color-text-primary)" stroke="var(--color-text-primary)" stroke-width="1" style="fill:rgb(250, 249, 245);stroke:rgb(250, 249, 245);stroke-width:1px;"/>
+<text x="340" y="676" text-anchor="middle" dominant-baseline="central" style="fill:rgb(194, 192, 182);stroke:none;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:central;">Shared BiLSTM + Attention Pooling</text>
+<text x="340" y="692" text-anchor="middle" dominant-baseline="central" style="fill:rgb(194, 192, 182);stroke:none;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:central;">(bobot identik — ketiga input)</text>
+
+<!-- Panah ke fitur relasi -->
+<line x1="170" y1="700" x2="170" y2="730" stroke="var(--color-text-primary)" stroke-width="1" marker-end="url(#arrow)" style="stroke:rgb(250, 249, 245);stroke-width:1px;"/>
+<line x1="340" y1="700" x2="340" y2="730" stroke="var(--color-text-primary)" stroke-width="1" marker-end="url(#arrow)" style="stroke:rgb(250, 249, 245);stroke-width:1px;"/>
+<line x1="510" y1="700" x2="510" y2="730" stroke="var(--color-text-primary)" stroke-width="1" marker-end="url(#arrow)" style="stroke:rgb(250, 249, 245);stroke-width:1px;"/>
+
+<!-- Fitur relasi — CORRECTED: 8 fitur (tambah orisinalitas) -->
+<rect x="100" y="732" width="480" height="40" rx="6" fill="none" stroke="var(--color-text-primary)" stroke-width="1" style="fill:none;stroke:rgb(250, 249, 245);stroke-width:1px;"/>
+<text x="340" y="748" text-anchor="middle" dominant-baseline="central" style="fill:rgb(194, 192, 182);stroke:none;font-size:10px;font-weight:400;text-anchor:middle;dominant-baseline:central;">8 fitur relasi: eq, ea, eak, |eak−ea|, eak⊙ea, cos(eak,ea), cos(eq,ea), orisinalitas</text>
+<text x="340" y="764" text-anchor="middle" dominant-baseline="central" style="fill:rgb(194, 192, 182);stroke:none;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:central;">+ 10 fitur skalar → Dense(32)</text>
+
+<!-- Panah ke head -->
+<line x1="340" y1="772" x2="340" y2="796" stroke="var(--color-text-primary)" stroke-width="1" marker-end="url(#arrow)" mask="url(#imagine-text-gaps-xbpm0z)" style="stroke:rgb(250, 249, 245);stroke-width:1px;"/>
+
+<!-- Ordinal head — CORRECTED: Dense(512) bukan Dense(256) -->
+<rect x="160" y="798" width="360" height="40" rx="6" fill="none" stroke="var(--color-text-primary)" stroke-width="1.5" style="fill:none;stroke:rgb(250, 249, 245);stroke-width:1.5px;"/>
+<text x="340" y="814" text-anchor="middle" dominant-baseline="central" style="fill:rgb(194, 192, 182);stroke:none;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:central;">Ordinal regression head</text>
+<text x="340" y="830" text-anchor="middle" dominant-baseline="central" style="fill:rgb(194, 192, 182);stroke:none;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:central;">Dense(512) → Dense(64) → 9×sigmoid → skor 1-10</text>
+
+<!-- Panah ke ensemble -->
+<line x1="340" y1="838" x2="340" y2="862" stroke="var(--color-text-primary)" stroke-width="1" marker-end="url(#arrow)" mask="url(#imagine-text-gaps-xbpm0z)" style="stroke:rgb(250, 249, 245);stroke-width:1px;"/>
+
+<!-- Multi-seed -->
+<rect x="200" y="864" width="280" height="36" rx="6" fill="none" stroke="var(--color-text-primary)" stroke-width="1" style="fill:none;stroke:rgb(250, 249, 245);stroke-width:1px;"/>
+<text x="340" y="882" text-anchor="middle" dominant-baseline="central" style="fill:rgb(194, 192, 182);stroke:none;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:central;">Multi-seed ensemble (3 seed)</text>
+
+<line x1="340" y1="882" x2="600" y2="882" stroke="var(--color-text-secondary)" stroke-width="0.5" stroke-dasharray="3 3" mask="url(#imagine-text-gaps-xbpm0z)" style="stroke:rgb(194, 192, 182);stroke-width:0.5px;stroke-dasharray:3px, 3px;"/>
+<text x="582.82" y="882" dominant-baseline="central" style="fill:rgb(194, 192, 182);stroke:none;font-size:12px;font-weight:400;text-anchor:start;dominant-baseline:central;">rata-rata prediksi</text>
+
+<!-- Keluar dari kotak model -->
+<line x1="340" y1="900" x2="340" y2="930" stroke="var(--color-text-primary)" stroke-width="1" marker-end="url(#arrow)" style="stroke:rgb(250, 249, 245);stroke-width:1px;"/>
+
+<!-- 7. EVALUASI -->
+<rect x="190" y="932" width="300" height="54" rx="8" fill="var(--color-text-primary)" stroke="var(--color-text-primary)" stroke-width="1" style="fill:rgb(250, 249, 245);stroke:rgb(250, 249, 245);stroke-width:1px;"/>
+<text x="340" y="954" text-anchor="middle" dominant-baseline="central" style="fill:rgb(250, 249, 245);stroke:none;font-size:14px;font-weight:500;text-anchor:middle;dominant-baseline:central;">7. Evaluasi (LOPO, 17 fold)</text>
+<text x="340" y="972" text-anchor="middle" dominant-baseline="central" style="fill:rgb(194, 192, 182);stroke:none;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:central;">RMSE | MAE | QWK</text>
+
+<!-- Label nomor di sisi kiri -->
+<text x="172" y="57" text-anchor="end" dominant-baseline="central" style="fill:rgb(194, 192, 182);stroke:none;font-size:12px;font-weight:400;text-anchor:end;dominant-baseline:central;">Dataset</text>
+<text x="172" y="143" text-anchor="end" dominant-baseline="central" style="fill:rgb(194, 192, 182);stroke:none;font-size:12px;font-weight:400;text-anchor:end;dominant-baseline:central;">Teks</text>
+<text x="172" y="229" text-anchor="end" dominant-baseline="central" style="fill:rgb(194, 192, 182);stroke:none;font-size:12px;font-weight:400;text-anchor:end;dominant-baseline:central;">Vektor</text>
+<text x="122" y="315" text-anchor="end" dominant-baseline="central" style="fill:rgb(194, 192, 182);stroke:none;font-size:12px;font-weight:400;text-anchor:end;dominant-baseline:central;">Augmentasi</text>
+<text x="172" y="493" text-anchor="end" dominant-baseline="central" style="fill:rgb(194, 192, 182);stroke:none;font-size:12px;font-weight:400;text-anchor:end;dominant-baseline:central;">LOPO</text>
+<text x="62" y="717" text-anchor="end" dominant-baseline="central" style="fill:rgb(194, 192, 182);stroke:none;font-size:12px;font-weight:400;text-anchor:end;dominant-baseline:central;">Model</text>
+<text x="172" y="959" text-anchor="end" dominant-baseline="central" style="fill:rgb(194, 192, 182);stroke:none;font-size:12px;font-weight:400;text-anchor:end;dominant-baseline:central;">Hasil</text>
+
+</svg>
